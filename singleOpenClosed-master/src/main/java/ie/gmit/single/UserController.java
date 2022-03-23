@@ -18,7 +18,7 @@ public class UserController {
             ObjectMapper mapper = new ObjectMapper();
 
             User user = mapper.readValue(userJson, User.class);
-
+            Validate Validate = new Validate();
             if(!Validate.checkUser(user)) {
                 return "ERROR";
             }
