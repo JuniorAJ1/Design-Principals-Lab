@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class Validate {
 
-    public static boolean checkUser(User user){
+    public boolean checkUser(User user){
         return isValidUser(user);
     }
 
